@@ -22,7 +22,7 @@ with col2:
 @st.cache_data
 def load_data():
     project_url = "https://docs.google.com/spreadsheets/d/1pZBg_lf8HakI6o2W1v8u1lUN2FGJn1Jc/export?format=csv&gid=622694975"
-    form_url = "https://docs.google.com/spreadsheets/d/1GClN4fCfP8aAUoUO3ayHOdUP6eiuL1wmrSaxiR4CxK8/edit?gid=1294784605#gid=1294784605"
+    form_url = "hhttps://docs.google.com/spreadsheets/d/1GClN4fCfP8aAUoUO3ayHOdUP6eiuL1wmrSaxiR4CxK8/edit?gid=1294784605#gid=1294784605"
 
     df_sites = pd.read_csv(project_url)
     df_sites.columns = df_sites.columns.str.strip()
